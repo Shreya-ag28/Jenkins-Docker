@@ -2,8 +2,8 @@ FROM openjdk:11
 
 WORKDIR /app
 
-COPY App.java .
+COPY Calculator.java .
 
-RUN javac App.java
+RUN javac Calculator.java
 
-CMD ["java", "App"]
+CMD ["java", "Calculator"]
