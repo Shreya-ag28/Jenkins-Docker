@@ -1,4 +1,4 @@
-public class SimpleCalculator {
+public class Calculator {
     public static void main(String[] args) {
         
         double num1 = 10;   // first number
